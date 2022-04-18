@@ -22,6 +22,6 @@ streamlit.dataframe(fruit_to_show)
 
 #new section to display fruitvice api response
 import requests
-fruityvice_response = requests.get('https://fruityvice.com/api/fruit/watermelon')
+fruityvice_response = requests.get('https://fruityvice.com/api/fruit/Watermelon')
 treamlite.text(fruityvice_response)
 
