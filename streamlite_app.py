@@ -25,5 +25,5 @@ streamlit.header('Fruityvice Fruit Advice!')
 
 import requests
 fruityvice_response = requests.get('https://fruityvice.com/api/fruit/Watermelon')
-treamlite.text(fruityvice_response.json())
+streamlite.text(fruityvice_response.json())
 
